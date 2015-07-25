@@ -1,7 +1,7 @@
 ===========================================================
-Course Project
-Getting and Cleaning Data
-25 July 2015
+#Course Project
+##Getting and Cleaning Data
+##25 July 2015
 ===========================================================
 
 # Purpose
