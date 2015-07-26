@@ -13,7 +13,7 @@ The purpose of this project was to merge, aggregate and tidy data captured in th
 Some notes on the merging and tidying follow
 
 ## Data merging and selection
-Data was uploaded, selected and tidied through a series of passes by the run_analysis.R script. In order to execute the script, the data files must be in their original table structure with the "UCI HAR Dataset" folder in the working directory. 
+Data was uploaded, selected and tidied through a series of passes by the run_analysis.R script. In order to execute the script, the data files must be in their original table structure with the "UCI HAR Dataset" folder in the working directory. The hw1() script loads the training and test data from file, appending subject and activity onto the data. The hw2() script merges the two sets together, subsets the columns and performs the mean calculations. I separated the scripts so that hw1, which takes the longest, can be run once and hw2 can be easily edited. 
 
 ## Data labelling 
 Columns were left labelled using the exact syntax used in features.txt rather than replacing them with more syntactically English labels. I did this not merely because I am lazy, but also to remove any ambiguity as to what the columns mean. A user looking at both the original data set and the tidied data set will have no problem mapping one to the other. 
